@@ -1,0 +1,17 @@
+.records-title .img{
+  position: absolute;
+  height: 50px;
+  width: 1660px;
+  /* background-image: url('./titleImg.png'); */
+  margin-left: 20px;
+}
+
+.records-title .text{
+  /* position: relative; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-left: -40px;
+}

@@ -1,0 +1,22 @@
+.middle{
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 350px;
+}
+
+.middle .option{
+  margin-top: 20px;
+  margin-left: 400px;
+  transform: scale(2,1.8);
+  background-color: rgb(20, 30, 62);
+}
+
+.middle .site-layout .route{
+  position: absolute;
+  height: 750px;
+  width: 1124px;
+  margin-left: -843px;
+  margin-top: 50px;
+  background-color: white;
+}
+
