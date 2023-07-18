@@ -34,6 +34,9 @@ const Middle = () => {
     navigate(e.key, { replace: true })
   }
 
+  window.onresize = function(){
+    Middle()
+  }
   return (
     // <div className="middle" style={{ display: 'flex', alignItems: 'center' }} >
       <div className="middle" style={{ display: 'flex', alignItems: 'center' }} 
