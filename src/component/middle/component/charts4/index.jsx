@@ -4,8 +4,6 @@ import img4 from './4.png'
 export default function index() {
   return (
     <div>
-
-      <br/>
       <img src={img4} alt="" />
     </div>
   )

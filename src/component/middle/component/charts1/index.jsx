@@ -8,7 +8,6 @@ export default function index() {
   }
   return (
     <div>
-      <br/>
       <img src={img1} alt="" />
     </div>
   )

@@ -45,7 +45,7 @@ const Middle = () => {
         className='option'
         theme="dark"
         mode="horizontal"
-        defaultSelectedKeys={['1']}
+        defaultSelectedKeys={['0']}
         // items={new Array(4).fill(null).map((Array, index) => {
         //   const arr = [
         //     '道具更换记录',
