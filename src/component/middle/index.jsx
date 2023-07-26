@@ -4,10 +4,10 @@ import { Layout, Menu } from 'antd';
 import { Routes, Route, useNavigate } from 'react-router-dom';
 import './index.css';
 
-import Charts1 from './component/charts1';
-import Charts2 from './component/charts2';
-import Charts3 from './component/charts3';
-import Charts4 from './component/charts4';
+import Charts1 from './pages/charts1';
+import Charts2 from './pages/charts2';
+import Charts3 from './pages/charts3';
+import Charts4 from './pages/charts4';
 
 
 const { Content } = Layout;
