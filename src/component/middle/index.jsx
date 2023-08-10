@@ -21,7 +21,7 @@ function getItem(label, key) {
 const items = [
   // getItem('记账', <PieChartOutlined />),
   // getItem('统计', <DesktopOutlined />),
-  getItem('道具更换记录', '/charts1'),
+  getItem('刀具更换记录', '/charts1'),
   getItem('数控机床维修记录', '/charts2'),
   getItem('六轴机器人维修记录', '/charts3'),
   getItem('零件卡爪维修记录', '/charts4'),
