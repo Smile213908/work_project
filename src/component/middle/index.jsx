@@ -1,7 +1,7 @@
 import React , { useState }from 'react';
 // import ReactDOM from 'react-dom';
 import { Layout, Menu } from 'antd';
-import { Routes, Route, useNavigate } from 'react-router-dom';
+import { Routes, Route, useNavigate} from 'react-router-dom';
 import './index.css';
 
 import Charts1 from './pages/charts1';
@@ -65,7 +65,8 @@ const Middle = () => {
       <Layout className="site-layout">
         <Content>
           <div className='route'>
-            <Routes>
+            <Routes>         
+              <Route path="*" element={<Charts1 />} />
               <Route exact path="/charts1" element={<Charts1 />} />
               <Route exact path="/charts2" element={<Charts2 />} />
               <Route exact path="/charts3" element={<Charts3 />} />
