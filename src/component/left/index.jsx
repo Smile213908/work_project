@@ -31,6 +31,11 @@ export default class JrlComponent extends Component {
     //退出系统
      window.open("http://218.94.19.58:8080/#/runtime-fullscreen/runtime-fullscreen/Page_96221f50c3dc40eb9c31c314f65ee271","_self");
     }
+    let btn5 = document.getElementById('button5')
+    btn5.onclick = () => {
+    //退出系统
+     window.close()
+    }
   }
   render() {
     return (
@@ -50,6 +55,9 @@ export default class JrlComponent extends Component {
                 </button>
                 <button id='button' style={{fontSize:'25px',width:'250px', height:'65px',color:'white',backgroundColor:'rgb(108, 116, 141)'}}>
                      <span id='button4'>设备运行维修记录</span>
+                </button>
+                <button id='button' style={{fontSize:'25px',width:'250px', height:'65px',color:'white',backgroundColor:'rgb(108, 116, 141)'}}>
+                     <span id='button5'>退出</span>
                 </button>
       </div>
     )
